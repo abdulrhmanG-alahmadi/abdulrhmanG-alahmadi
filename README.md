@@ -17,59 +17,11 @@ Jeddah, Saudi Arabia · From a useful idea to working software.
 
 ## Selected work
 
-### 01 / TriageKit
-
-<a href="https://github.com/abdulrhmanG-alahmadi/triagekit-oss">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/triagekit-cover.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/triagekit-cover-light.svg">
-  <img alt="TriageKit — reliable LLM workflows. TypeScript, Bun and PostgreSQL." src="assets/triagekit-cover.svg" width="1200">
-</picture>
-</a>
-
-**A support ticket goes in. A validated classification comes back.**
-
-**Problem:** Slow or unavailable model providers should not lose accepted tickets.  
-**Approach:** Persist work in PostgreSQL; classify in a separate worker with validation, bounded retries, and recovery.  
-**Evidence:** Runnable offline demo, integration tests, and reclassification history. The demo uses a deterministic fake provider; it is not a live-model accuracy benchmark.
-
-[Source ↗](https://github.com/abdulrhmanG-alahmadi/triagekit-oss) · [Run the demo](https://github.com/abdulrhmanG-alahmadi/triagekit-oss#start-offline) · [Design decisions](https://github.com/abdulrhmanG-alahmadi/triagekit-oss/blob/HEAD/docs/design.md)
-
-### 02 / Leadline
-
-<a href="https://github.com/abdulrhmanG-alahmadi/leadline">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/leadline-cover.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/leadline-cover-light.svg">
-  <img alt="Leadline — local business discovery. Bun, Elysia and Vite." src="assets/leadline-cover.svg" width="1200">
-</picture>
-</a>
-
-**Find businesses. Filter the results. Export a useful list.**
-
-**Problem:** Repeated searches and manual contact collection slow down prospecting.  
-**Approach:** A local dashboard combines Google Places searches, contact filters, and CSV export.  
-**Evidence:** Existing dashboard preview and runnable source for Jeddah, Khobar, and Riyadh. Local setup requires a Google Places API key.
-
-[Source ↗](https://github.com/abdulrhmanG-alahmadi/leadline) · [Dashboard preview](#leadline-dashboard) · [Run locally](https://github.com/abdulrhmanG-alahmadi/leadline#the-easy-way-macos)
-
-### 03 / EduVision
-
-<a href="https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/eduvision-cover.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/eduvision-cover-light.svg">
-  <img alt="EduVision — classroom video exploration. Python, PyTorch and MediaPipe." src="assets/eduvision-cover.svg" width="1200">
-</picture>
-</a>
-
-**Explore visible patterns in video with computer vision.**
-
-**Problem:** Long recordings are difficult to review frame by frame.  
-**Approach:** Detect and crop people, estimate head pose and raised hands, detect phones, and summarize saved outputs.  
-**Evidence:** Python pipeline, desktop launcher, and body-pose notebook. This is a research prototype; visible activity is not a validated measure of attention or learning.
-
-[Source ↗](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis) · [Pipeline](#eduvision-pipeline) · [Notebook](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis/blob/HEAD/Body%20Pose%20Train%20and%20Data.ipynb)
+| Project | At a glance |
+| :--- | :--- |
+| <a href="https://github.com/abdulrhmanG-alahmadi/triagekit-oss"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/triagekit-cover.svg"><source media="(prefers-color-scheme: light)" srcset="assets/triagekit-cover-light.svg"><img src="assets/triagekit-cover.svg" alt="TriageKit" width="140"></picture></a> | **[TriageKit](https://github.com/abdulrhmanG-alahmadi/triagekit-oss)**<br>Reliable support-ticket classification with retries and recovery.<br>[Source ↗](https://github.com/abdulrhmanG-alahmadi/triagekit-oss) · [Offline demo](https://github.com/abdulrhmanG-alahmadi/triagekit-oss#start-offline) |
+| <a href="https://github.com/abdulrhmanG-alahmadi/leadline"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/leadline-cover.svg"><source media="(prefers-color-scheme: light)" srcset="assets/leadline-cover-light.svg"><img src="assets/leadline-cover.svg" alt="Leadline" width="140"></picture></a> | **[Leadline](https://github.com/abdulrhmanG-alahmadi/leadline)**<br>Find Saudi businesses, filter contacts, and export CSV.<br>[Source ↗](https://github.com/abdulrhmanG-alahmadi/leadline) · [Dashboard](#leadline-dashboard) |
+| <a href="https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/eduvision-cover.svg"><source media="(prefers-color-scheme: light)" srcset="assets/eduvision-cover-light.svg"><img src="assets/eduvision-cover.svg" alt="EduVision" width="140"></picture></a> | **[EduVision](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis)**<br>Computer vision research prototype for exploring classroom video.<br>[Source ↗](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis) · [Pipeline](#eduvision-pipeline) |
 
 ## Project demos
 
