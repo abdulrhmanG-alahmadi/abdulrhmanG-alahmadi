@@ -1,7 +1,9 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png">
-  <img alt="Abdulrhman Alahmadi — Practical AI. Useful software. AI / Data / Web." src="assets/banner.png" width="1200">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/banner.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-animated.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/banner-light.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light-animated.svg">
+  <img alt="Abdulrhman Alahmadi — Practical AI. Useful software. AI / Data / Web." src="assets/banner-animated.svg" width="1200">
 </picture>
 
 <div align="center">
