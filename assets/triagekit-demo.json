@@ -1,0 +1,34 @@
+{
+  "recordedAt": "2026-09-25T17:25:22.135303+00:00",
+  "mode": "offline fake provider; synthetic input; not a live-model benchmark",
+  "request": {
+    "id": "profile-preview-20260925-b",
+    "subject": "Invoice question",
+    "body": "Where can I download my July invoice?"
+  },
+  "postStatus": 201,
+  "observedStatuses": [
+    "pending",
+    "classified"
+  ],
+  "response": {
+    "id": "profile-preview-20260925-b",
+    "subject": "Invoice question",
+    "body": "Where can I download my July invoice?",
+    "status": "classified",
+    "classificationRunId": "e00c9531-fe9b-4a3e-b8cf-46e6822bae0e",
+    "createdAt": "2026-09-25T17:25:21.608Z",
+    "updatedAt": "2026-09-25T17:25:21.649Z",
+    "attempts": 1,
+    "lastErrorCode": null,
+    "classification": {
+      "category": "billing",
+      "priority": "medium",
+      "summary": "The customer needs help resolving a billing or payment issue.",
+      "model": "fake-v1",
+      "promptVersion": "ticket-classification-v6",
+      "classifiedAt": "2026-09-25T17:25:21.649Z"
+    },
+    "failure": null
+  }
+}

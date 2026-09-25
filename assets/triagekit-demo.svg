@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="370" viewBox="0 0 1000 370" role="img" aria-labelledby="title desc">
+<title id="title">TriageKit recorded offline API demo</title><desc id="desc">A synthetic invoice question was accepted with HTTP 201, moved from pending to classified, and returned category billing, priority medium, model fake-v1. Visual replay of captured output, not a live model benchmark.</desc>
+<style>@keyframes reveal{0%,12%{opacity:0}25%,100%{opacity:1}} .result{animation:reveal 7s ease-in-out infinite} @media(prefers-reduced-motion:reduce){.result{animation:none}}</style>
+<rect width="1000" height="370" rx="16" fill="#031329"/>
+<rect width="1000" height="52" rx="16" fill="#0a2445"/>
+<g font-family="Arial,sans-serif"><text x="32" y="34" fill="#a6bdd8" font-size="17">TriageKit / captured API output / offline fake provider</text></g>
+<g font-family="monospace" font-size="23"><text x="32" y="98" fill="#57bfff">POST /api/v1/tickets</text>
+<text x="32" y="140" fill="#f0f7ff">Where can I download my July invoice?</text>
+<text x="32" y="187" fill="#a6bdd8">201 Created  /  pending → classified</text>
+<g class="result"><text x="32" y="246" fill="#79dcba">category: billing</text><text x="350" y="246" fill="#79dcba">priority: medium</text><text x="32" y="286" fill="#a6bdd8">model: fake-v1  /  attempts: 1</text></g>
+</g><text x="32" y="342" fill="#7899bc" font-family="Arial,sans-serif" font-size="16">Synthetic input · Visual replay of recorded output · Animation timing is illustrative</text></svg>
