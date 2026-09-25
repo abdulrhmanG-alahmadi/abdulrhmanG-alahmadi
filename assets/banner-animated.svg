@@ -2,10 +2,10 @@
 <title id="title">Abdulrhman Alahmadi — Practical AI. Useful software.</title>
 <desc id="desc">AI / Data / Web. Blue waves flow gently around stationary text. Motion stops when reduced motion is enabled.</desc>
 <style>
-@keyframes flow { 0%,100% {transform:translate(0,0) scale(1)} 50% {transform:translate(-10px,-7px) scale(1.025)} }
-@keyframes tide { 0%,100% {transform:translate(0,0) scale(1)} 50% {transform:translate(-7px,5px) scale(1.018)} }
-.flow {animation:flow 16s ease-in-out infinite;transform-origin:1000px 320px}
-.tide {animation:tide 20s ease-in-out -5s infinite;transform-origin:1000px 150px}
+@keyframes flow { 0%,100% {transform:translate(0,0) scale(1)} 50% {transform:translate(-26px,-18px) scale(1.065)} }
+@keyframes tide { 0%,100% {transform:translate(0,0) scale(1)} 50% {transform:translate(-18px,13px) scale(1.05)} }
+.flow {animation:flow 10s ease-in-out infinite;transform-origin:600px 80px}
+.tide {animation:tide 12s ease-in-out -5s infinite;transform-origin:600px 300px}
 @media (prefers-reduced-motion:reduce) {.flow,.tide {animation:none}}
 </style>
 <defs>
