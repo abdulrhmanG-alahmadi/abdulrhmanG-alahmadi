@@ -1,17 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
 <title id="title">TriageKit</title><desc id="desc">Reliable LLM workflows. TypeScript · Bun · Postgres.</desc>
 <style>
-@keyframes drift {0%,100% {transform:translate(0,0)} 50% {transform:translate(-14px,8px) scale(1.1)}}
-@keyframes shimmer {0%,100% {opacity:.5} 50% {opacity:1}}
-.wave-motion {transform-origin:320px 240px;animation:drift 10s ease-in-out 0s infinite}
-.wave-edge {animation:shimmer 8s ease-in-out 0s infinite}
-@media (prefers-reduced-motion:reduce) {.wave-motion,.wave-edge {animation:none}}
+@keyframes f400 {to {transform:translateX(-400px)}}
+@keyframes f200 {to {transform:translateX(-200px)}}
+@keyframes f300 {to {transform:translateX(-300px)}}
+@keyframes pulse {0%,100% {opacity:1;transform:scale(1)} 50% {opacity:.35;transform:scale(.6)}}
+.w1 {animation:f400 14s linear 0s infinite}
+.w2 {animation:f200 7s linear 0s infinite}
+.w3 {animation:f300 10s linear 0s infinite}
+.dot {transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out 0.0s infinite}
+@media (prefers-reduced-motion:reduce) {.w1,.w2,.w3,.dot {animation:none}}
 </style>
-<defs><linearGradient id="wave" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#1469db" stop-opacity="0"/><stop offset="1" stop-color="#41baff" stop-opacity=".32"/></linearGradient><clipPath id="card"><rect width="400" height="300" rx="16"/></clipPath></defs>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#41baff" stop-opacity=".30"/><stop offset="1" stop-color="#1469db" stop-opacity="0"/></linearGradient><clipPath id="card"><rect width="400" height="300" rx="16"/></clipPath></defs>
 <rect width="400" height="300" rx="16" fill="#f4f9ff"/>
-<g clip-path="url(#card)"><g transform="translate(90 20)"><g class="wave-motion"><path class="wave-edge" d="M60 300 C170 210 220 300 300 200 S370 120 420 130 L420 300Z" fill="url(#wave)"/>
-<path d="M60 300 C170 210 220 300 300 200 S370 120 420 130 M150 300 C250 190 310 260 420 90 M200 300 C290 260 340 190 420 210" fill="none" stroke="#0869bf" stroke-opacity=".45" stroke-width="1.5"/></g></g></g>
-<g font-family="Arial,sans-serif"><text x="28" y="44" fill="#0869bf" font-size="14" letter-spacing="3">01 / PROJECT</text>
+<g clip-path="url(#card)">
+<path class="w1" d="M0 256 q100.0 -24 200.0 0 t200.0 0 t200.0 0 t200.0 0 t200.0 0 t200.0 0 V300 H0Z" fill="url(#g)"/>
+<path class="w2" d="M0 246 q50.0 -14 100.0 0 t100.0 0 t100.0 0 t100.0 0 t100.0 0 t100.0 0 t100.0 0 t100.0 0" fill="none" stroke="#0869bf" stroke-opacity=".55" stroke-width="1.5"/>
+<path class="w3" d="M0 268 q75.0 -20 150.0 0 t150.0 0 t150.0 0 t150.0 0 t150.0 0 t150.0 0" fill="none" stroke="#0869bf" stroke-opacity=".3" stroke-width="1.5"/>
+</g>
+<circle class="dot" cx="32" cy="39" r="4" fill="#0869bf"/>
+<g font-family="Arial,sans-serif"><text x="46" y="44" fill="#0869bf" font-size="14" letter-spacing="3">01 / PROJECT</text>
 <text x="28" y="104" fill="#092758" font-size="42" font-weight="700">TriageKit</text>
 <text x="28" y="142" fill="#466487" font-size="21">Reliable LLM</text><text x="28" y="170" fill="#466487" font-size="21">workflows</text>
 <text x="28" y="214" fill="#0869bf" font-size="15">TypeScript · Bun · Postgres</text></g></svg>
