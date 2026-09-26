@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
-<title id="title">Leadline</title><desc id="desc">Local business discovery. Bun / Elysia / Vite.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
+<title id="title">Leadline</title><desc id="desc">Local business discovery. Bun · Elysia · Vite.</desc>
 <style>
-@keyframes drift {0%,100% {transform:translate(0,0)} 50% {transform:translate(-18px,9px) scale(1.12)}}
+@keyframes drift {0%,100% {transform:translate(0,0)} 50% {transform:translate(-14px,8px) scale(1.1)}}
 @keyframes shimmer {0%,100% {opacity:.5} 50% {opacity:1}}
-.wave-motion {transform-origin:900px 200px;animation:drift 11s ease-in-out -2s infinite}
+.wave-motion {transform-origin:320px 240px;animation:drift 10s ease-in-out -2s infinite}
 .wave-edge {animation:shimmer 8s ease-in-out -2s infinite}
 @media (prefers-reduced-motion:reduce) {.wave-motion,.wave-edge {animation:none}}
 </style>
-<defs><linearGradient id="wave" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#1469db" stop-opacity="0"/><stop offset="1" stop-color="#41baff" stop-opacity=".32"/></linearGradient></defs>
-<rect width="1200" height="280" rx="16" fill="#031329"/>
-<g class="wave-motion"><path class="wave-edge" d="M450 280 C690 150 760 320 950 160 S1100 80 1200 100 L1200 280Z" fill="url(#wave)"/>
-<path d="M460 279 C690 155 760 320 950 160 S1100 80 1200 100 M620 280 C820 145 940 255 1200 40 M700 280 C900 225 980 130 1200 165" fill="none" stroke="#57bfff" stroke-opacity=".45" stroke-width="1.5"/></g>
-<text x="48" y="45" fill="#57bfff" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">02 / SELECTED WORK</text>
-<text x="48" y="118" fill="#f0f7ff" font-family="Arial,sans-serif" font-size="48" font-weight="700">Leadline</text>
-<text x="50" y="163" fill="#a6bdd8" font-family="Arial,sans-serif" font-size="23">Local business discovery</text>
-<text x="50" y="231" fill="#57bfff" font-family="Arial,sans-serif" font-size="16">Bun / Elysia / Vite</text></svg>
+<defs><linearGradient id="wave" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#1469db" stop-opacity="0"/><stop offset="1" stop-color="#41baff" stop-opacity=".32"/></linearGradient><clipPath id="card"><rect width="400" height="300" rx="16"/></clipPath></defs>
+<rect width="400" height="300" rx="16" fill="#031329"/>
+<g clip-path="url(#card)"><g transform="translate(90 20)"><g class="wave-motion"><path class="wave-edge" d="M60 300 C170 210 220 300 300 200 S370 120 420 130 L420 300Z" fill="url(#wave)"/>
+<path d="M60 300 C170 210 220 300 300 200 S370 120 420 130 M150 300 C250 190 310 260 420 90 M200 300 C290 260 340 190 420 210" fill="none" stroke="#57bfff" stroke-opacity=".45" stroke-width="1.5"/></g></g></g>
+<g font-family="Arial,sans-serif"><text x="28" y="44" fill="#57bfff" font-size="14" letter-spacing="3">02 / PROJECT</text>
+<text x="28" y="104" fill="#f0f7ff" font-size="42" font-weight="700">Leadline</text>
+<text x="28" y="142" fill="#a6bdd8" font-size="21">Local business</text><text x="28" y="170" fill="#a6bdd8" font-size="21">discovery</text>
+<text x="28" y="214" fill="#57bfff" font-size="15">Bun · Elysia · Vite</text></g></svg>

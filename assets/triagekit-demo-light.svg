@@ -18,19 +18,19 @@
 @keyframes r3 {0%,68% {opacity:0;transform:translateY(10px)} 73%,100% {opacity:1;transform:translateY(0)}}
 @media (prefers-reduced-motion:reduce) {.cover {display:none} .scene,.status,.moved,.r1,.r2,.r3 {animation:none;opacity:1}}
 </style>
-<rect width="1000" height="370" rx="16" fill="#031329"/>
-<rect width="1000" height="52" rx="16" fill="#0a2445"/>
-<g font-family="Arial,sans-serif"><text x="32" y="34" fill="#a6bdd8" font-size="17">TriageKit / captured API output / offline fake provider</text></g>
+<rect width="1000" height="370" rx="16" fill="#f4f9ff"/>
+<rect width="1000" height="52" rx="16" fill="#e4effb"/>
+<g font-family="Arial,sans-serif"><text x="32" y="34" fill="#466487" font-size="17">TriageKit / captured API output / offline fake provider</text></g>
 <g font-family="ui-monospace,Menlo,Consolas,monospace" font-size="23">
-<text x="32" y="98" fill="#57bfff">POST /api/v1/tickets</text>
+<text x="32" y="98" fill="#0869bf">POST /api/v1/tickets</text>
 <g class="scene">
-<text x="32" y="140" fill="#f0f7ff" textLength="511" lengthAdjust="spacingAndGlyphs">Where can I download my July invoice?</text>
-<g class="status"><text x="32" y="187" fill="#a6bdd8" textLength="321" lengthAdjust="spacingAndGlyphs">201 Created  /  pending</text></g>
-<g class="moved"><text x="367" y="187" fill="#a6bdd8" textLength="165" lengthAdjust="spacingAndGlyphs">→ classified</text></g>
-<g class="r1"><text x="32" y="246" fill="#79dcba">category: billing</text></g>
-<g class="r2"><text x="350" y="246" fill="#79dcba">priority: medium</text></g>
-<g class="r3"><text x="32" y="286" fill="#a6bdd8">model: fake-v1  /  attempts: 1</text></g>
+<text x="32" y="140" fill="#092758" textLength="511" lengthAdjust="spacingAndGlyphs">Where can I download my July invoice?</text>
+<g class="status"><text x="32" y="187" fill="#466487" textLength="321" lengthAdjust="spacingAndGlyphs">201 Created  /  pending</text></g>
+<g class="moved"><text x="367" y="187" fill="#466487" textLength="165" lengthAdjust="spacingAndGlyphs">→ classified</text></g>
+<g class="r1"><text x="32" y="246" fill="#0a7f5c">category: billing</text></g>
+<g class="r2"><text x="350" y="246" fill="#0a7f5c">priority: medium</text></g>
+<g class="r3"><text x="32" y="286" fill="#466487">model: fake-v1  /  attempts: 1</text></g>
 </g>
 </g>
-<g class="cover"><rect x="30" y="112" width="640" height="38" fill="#031329"/><rect class="caret" x="31" y="118" width="3" height="27" fill="#57bfff"/></g>
-<text x="32" y="342" fill="#7899bc" font-family="Arial,sans-serif" font-size="16">Synthetic input · Visual replay of recorded output · Animation timing is illustrative</text></svg>
+<g class="cover"><rect x="30" y="112" width="640" height="38" fill="#f4f9ff"/><rect class="caret" x="31" y="118" width="3" height="27" fill="#0869bf"/></g>
+<text x="32" y="342" fill="#6a86a6" font-family="Arial,sans-serif" font-size="16">Synthetic input · Visual replay of recorded output · Animation timing is illustrative</text></svg>

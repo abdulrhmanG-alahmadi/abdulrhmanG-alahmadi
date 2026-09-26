@@ -17,17 +17,24 @@ Jeddah, Saudi Arabia · From a useful idea to working software.
 
 ## Selected work
 
-| Project | At a glance |
-| :--- | :--- |
-| <a href="https://github.com/abdulrhmanG-alahmadi/triagekit-oss"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/triagekit-cover.svg"><source media="(prefers-color-scheme: light)" srcset="assets/triagekit-cover-light.svg"><img src="assets/triagekit-cover.svg" alt="TriageKit" width="140"></picture></a> | **[TriageKit](https://github.com/abdulrhmanG-alahmadi/triagekit-oss)**<br>Reliable support-ticket classification with retries and recovery.<br>[Source ↗](https://github.com/abdulrhmanG-alahmadi/triagekit-oss) · [Offline demo](https://github.com/abdulrhmanG-alahmadi/triagekit-oss#start-offline) |
-| <a href="https://github.com/abdulrhmanG-alahmadi/leadline"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/leadline-cover.svg"><source media="(prefers-color-scheme: light)" srcset="assets/leadline-cover-light.svg"><img src="assets/leadline-cover.svg" alt="Leadline" width="140"></picture></a> | **[Leadline](https://github.com/abdulrhmanG-alahmadi/leadline)**<br>Find Saudi businesses, filter contacts, and export CSV.<br>[Source ↗](https://github.com/abdulrhmanG-alahmadi/leadline) · [Dashboard](#leadline-dashboard) |
-| <a href="https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/eduvision-cover.svg"><source media="(prefers-color-scheme: light)" srcset="assets/eduvision-cover-light.svg"><img src="assets/eduvision-cover.svg" alt="EduVision" width="140"></picture></a> | **[EduVision](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis)**<br>Computer vision research prototype for exploring classroom video.<br>[Source ↗](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis) · [Pipeline](#eduvision-pipeline) |
+<table>
+<tr>
+<td width="33%"><a href="https://github.com/abdulrhmanG-alahmadi/triagekit-oss"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/triagekit-cover.svg"><source media="(prefers-color-scheme: light)" srcset="assets/triagekit-cover-light.svg"><img src="assets/triagekit-cover.svg" alt="TriageKit" width="100%"></picture></a></td>
+<td width="33%"><a href="https://github.com/abdulrhmanG-alahmadi/leadline"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/leadline-cover.svg"><source media="(prefers-color-scheme: light)" srcset="assets/leadline-cover-light.svg"><img src="assets/leadline-cover.svg" alt="Leadline" width="100%"></picture></a></td>
+<td width="33%"><a href="https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/eduvision-cover.svg"><source media="(prefers-color-scheme: light)" srcset="assets/eduvision-cover-light.svg"><img src="assets/eduvision-cover.svg" alt="EduVision" width="100%"></picture></a></td>
+</tr>
+<tr>
+<td valign="top">Support-ticket classification with retries and recovery.<br><br><a href="https://github.com/abdulrhmanG-alahmadi/triagekit-oss">Source ↗</a> · <a href="#triagekit-offline-run">Demo</a></td>
+<td valign="top">Find Saudi businesses, filter contacts, export CSV.<br><br><a href="https://github.com/abdulrhmanG-alahmadi/leadline">Source ↗</a> · <a href="#leadline-dashboard">Dashboard</a></td>
+<td valign="top">Computer vision prototype for exploring classroom video.<br><br><a href="https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis">Source ↗</a> · <a href="#eduvision-pipeline">Pipeline</a></td>
+</tr>
+</table>
 
 ## Project demos
 
 ### TriageKit offline run
 
-![Recorded TriageKit API demo using synthetic input and the fake provider](assets/triagekit-demo.svg)
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/triagekit-demo-light.svg"><img src="assets/triagekit-demo.svg" alt="Recorded TriageKit API demo using synthetic input and the fake provider"></picture>
 
 [Read the captured request and response](assets/triagekit-demo.json) · [Reproduce locally](https://github.com/abdulrhmanG-alahmadi/triagekit-oss#start-offline)
 
@@ -44,9 +51,9 @@ Existing screenshot from the project repository. This is a static product previe
 
 ### EduVision pipeline
 
-![EduVision architecture: video frames, person detection, pose and phone analysis, visual summaries](assets/eduvision-pipeline.svg)
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/eduvision-pipeline-light.svg"><img src="assets/eduvision-pipeline.svg" alt="EduVision architecture: video frames, person detection, pose and phone analysis, visual summaries"></picture>
 
-Architecture illustration. A detection recording is not included because the repository has no bundled sample footage.
+Architecture illustration of how the prototype processes a recording.
 
 ## Skills, with evidence
 
@@ -56,12 +63,6 @@ Architecture illustration. A detection recording is not included because the rep
 | Useful web tools | Bun · Vite · Google Places API | [Leadline](https://github.com/abdulrhmanG-alahmadi/leadline#architecture) |
 | Computer vision | Python · PyTorch · MediaPipe · OpenCV | [EduVision](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis#architecture) |
 | Data exploration | pandas · Seaborn · Jupyter | [Prosper Loan Analysis](https://github.com/abdulrhmanG-alahmadi/Communicate-Data-Findings) |
-
-## More work
-
-- **[Prosper Loan Analysis](https://github.com/abdulrhmanG-alahmadi/Communicate-Data-Findings)** — explore 113,937 loans through statistical visualizations.
-- **[Mashoorah](https://github.com/abdulrhmanG-alahmadi/Mashoorah-Saudichatgpt-hackathon)** — an Arabic investing-education hackathon concept, with Figma designs and a presentation.
-- **[Airline Pilot Manager](https://github.com/abdulrhmanG-alahmadi/Airline-Pilot-Management-System)** — a Java console exercise in inheritance, interfaces, and collections.
 
 ---
 
