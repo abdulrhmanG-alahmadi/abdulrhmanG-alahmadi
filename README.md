@@ -24,7 +24,7 @@ Reliable support-ticket classification, with retries and recovery. [Try the offl
 Find Saudi businesses, filter contacts, export a useful list. [See the dashboard →](#leadline-dashboard)
 
 **[EduVision ↗](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis)**  
-A computer vision research prototype for classroom recordings. [See the workflow →](#eduvision-pipeline)
+Classroom behavior analysis: head orientation, raised hands, and phone use. [See the workflow →](#eduvision-pipeline)
 
 ## Project demos
 
@@ -51,7 +51,7 @@ Existing screenshot from the project repository. This is a static product previe
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/eduvision-pipeline-light-static.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/eduvision-pipeline-static.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/eduvision-pipeline-light.svg">
-  <img src="assets/eduvision-pipeline.svg" alt="EduVision illustrated workflow: a classroom frame becomes a person crop, pose landmarks, and saved outputs." width="960">
+  <img src="assets/eduvision-pipeline.svg" alt="EduVision classroom behavior analysis: students facing the lesson, raising a hand, and looking at a phone; person crops, pose landmarks, and summaries." width="960">
 </picture>
 
 AI-generated illustration with animated processing steps; landmarks and plots are schematic, not recorded model output. [Explore the implementation →](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis#architecture)
