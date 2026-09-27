@@ -54,7 +54,7 @@ Existing screenshot from the project repository. This is a static product previe
   <img src="assets/eduvision-pipeline.svg" alt="EduVision illustrated workflow: a classroom frame becomes a person crop, pose landmarks, and saved outputs." width="960">
 </picture>
 
-Illustrated processing steps; people, landmarks, and plots are schematic, not recorded model output. [Explore the implementation →](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis#architecture)
+AI-generated illustration with animated processing steps; landmarks and plots are schematic, not recorded model output. [Explore the implementation →](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis#architecture)
 
 ## Skills, with evidence
 
