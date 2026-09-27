@@ -17,18 +17,14 @@ Jeddah, Saudi Arabia · From a useful idea to working software.
 
 ## Selected work
 
-<table>
-<tr>
-<td width="33%"><a href="https://github.com/abdulrhmanG-alahmadi/triagekit-oss"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/triagekit-cover.svg"><source media="(prefers-color-scheme: light)" srcset="assets/triagekit-cover-light.svg"><img src="assets/triagekit-cover.svg" alt="TriageKit" width="100%"></picture></a></td>
-<td width="33%"><a href="https://github.com/abdulrhmanG-alahmadi/leadline"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/leadline-cover.svg"><source media="(prefers-color-scheme: light)" srcset="assets/leadline-cover-light.svg"><img src="assets/leadline-cover.svg" alt="Leadline" width="100%"></picture></a></td>
-<td width="33%"><a href="https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/eduvision-cover.svg"><source media="(prefers-color-scheme: light)" srcset="assets/eduvision-cover-light.svg"><img src="assets/eduvision-cover.svg" alt="EduVision" width="100%"></picture></a></td>
-</tr>
-<tr>
-<td valign="top">Support-ticket classification with retries and recovery.<br><br><a href="https://github.com/abdulrhmanG-alahmadi/triagekit-oss">Source ↗</a> · <a href="#triagekit-offline-run">Demo</a></td>
-<td valign="top">Find Saudi businesses, filter contacts, export CSV.<br><br><a href="https://github.com/abdulrhmanG-alahmadi/leadline">Source ↗</a> · <a href="#leadline-dashboard">Dashboard</a></td>
-<td valign="top">Computer vision prototype for exploring classroom video.<br><br><a href="https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis">Source ↗</a> · <a href="#eduvision-pipeline">Pipeline</a></td>
-</tr>
-</table>
+**[TriageKit ↗](https://github.com/abdulrhmanG-alahmadi/triagekit-oss)**  
+Reliable support-ticket classification, with retries and recovery. [Try the offline demo →](https://github.com/abdulrhmanG-alahmadi/triagekit-oss#start-offline)
+
+**[Leadline ↗](https://github.com/abdulrhmanG-alahmadi/leadline)**  
+Find Saudi businesses, filter contacts, export a useful list. [See the dashboard →](#leadline-dashboard)
+
+**[EduVision ↗](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis)**  
+A computer vision research prototype for classroom recordings. [See the workflow →](#eduvision-pipeline)
 
 ## Project demos
 
@@ -51,9 +47,14 @@ Existing screenshot from the project repository. This is a static product previe
 
 ### EduVision pipeline
 
-<picture><source media="(prefers-color-scheme: light)" srcset="assets/eduvision-pipeline-light.svg"><img src="assets/eduvision-pipeline.svg" alt="EduVision architecture: video frames, person detection, pose and phone analysis, visual summaries"></picture>
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/eduvision-pipeline-light-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/eduvision-pipeline-static.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/eduvision-pipeline-light.svg">
+  <img src="assets/eduvision-pipeline.svg" alt="EduVision illustrated workflow: a classroom frame becomes a person crop, pose landmarks, and saved outputs." width="960">
+</picture>
 
-Architecture illustration of how the prototype processes a recording.
+Illustrated processing steps; people, landmarks, and plots are schematic, not recorded model output. [Explore the implementation →](https://github.com/abdulrhmanG-alahmadi/AI-Classroom-Engagement-Analysis#architecture)
 
 ## Skills, with evidence
 
